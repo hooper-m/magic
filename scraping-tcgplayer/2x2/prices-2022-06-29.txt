@@ -1,0 +1,333 @@
+CN	Name	Rarity	Normal	Foil	Etched Foil	Borderless	Borderless Foil	Textured Foil
+100	Abbot of Keral Keep	R	0.23	1.99	14.99	-	-	-
+165	Abzan Ascendancy	R	0.86	0.99	14.99	-	-	-
+166	Abzan Charm	U	0.23	1.99	-	-	-	-
+4	Abzan Falconer	U	0.25	1.99	-	-	-	-
+36	Advanced Stitchwing	C	0.2	0.19	-	-	-	-
+298	Aether Vial	R	17.92	31.99	199.99	50.0	199.99	-
+167	Aethermage's Touch	R	0.47	1.99	-	-	-	-
+37	Aethersnipe	C	0.2	0.19	-	-	-	-
+168	Agony Warp	C	0.09	0.29	-	-	-	-
+5	Ainok Bond-Kin	C	0.2	0.19	-	-	-	-
+101	Alesha, Who Smiles at Death	R	0.17	2.47	14.99	-	-	-
+132	Allosaurus Shepherd	M	28.35	120.0	139.99	59.49	150.0	-
+133	Ambuscade	C	0.09	0.19	-	-	-	-
+169	Aminatou, the Fateshifter	M	3.97	14.0	20.0	-	-	-
+102	Anger of the Gods	R	0.92	2.97	39.99	6.97	49.99	-
+170	Anguished Unmaking	R	4.94	8.99	34.99	-	-	-
+171	Animar, Soul of Elements	M	7.19	75.0	80.0	-	-	-
+134	Annoyed Altisaur	C	0.19	0.19	-	-	-	-
+6	Anointer of Valor	C	0.09	0.24	-	-	-	-
+135	Arachnus Spinner	U	0.19	0.49	-	-	-	-
+136	Arachnus Web	C	0.14	0.49	-	-	-	-
+172	Arjun, the Shifting Flame	R	1.99	39.99	29.99	-	-	-
+38	As Foretold	M	6.61	18.99	30.0	-	-	-
+173	Ashen Rider	R	0.44	9.99	19.99	-	-	-
+174	Ashenmoor Liege	R	2.96	27.99	34.99	-	-	-
+175	Assassin's Trophy	R	7.97	17.99	94.99	29.98	89.99	-
+176	Atarka's Command	R	0.99	3.97	14.99	-	-	-
+177	Atla Palani, Nest Tender	R	0.94	49.99	24.99	-	-	-
+178	Auger Spree	C	0.09	0.09	-	-	-	-
+179	Aurelia, the Warleader	M	18.99	39.99	80.0	-	-	-
+39	Aven Initiate	C	0.09	0.09	-	-	-	-
+318	Azorius Chancery	U	0.25	0.79	-	4.97	13.99	-
+103	Backdraft Hellkite	R	0.94	39.99	29.99	-	-	-
+180	Balefire Liege	R	2.22	14.99	24.98	-	-	-
+68	Balustrade Spy	C	0.2	0.24	-	-	-	-
+181	Bant Charm	U	0.15	2.73	-	-	-	-
+7	Battlefield Promotion	C	0.09	0.14	-	-	-	-
+182	Bear's Companion	U	0.09	0.49	-	-	-	-
+104	Bedlam Reveler	R	0.49	1.99	14.99	-	-	-
+137	Biogenic Upgrade	U	0.1	0.39	-	-	-	-
+69	Bitterblossom	M	24.98	79.99	139.99	-	-	-
+183	Blazing Hellhound	U	0.08	0.24	-	-	-	-
+70	Blood Artist	U	2.48	11.99	-	7.97	18.99	-
+184	Bloodbraid Elf	U	0.48	2.98	-	11.98	12.98	-
+71	Bloodflow Connoisseur	C	0.15	0.49	-	-	-	-
+299	Bloodforged Battle-Axe	R	9.96	39.99	79.99	30.0	80.0	-
+185	Bloodwater Entity	C	0.25	0.74	-	-	-	-
+138	Bloom Tender	R	15.95	394.99	94.99	27.96	494.99	-
+186	Boartusk Liege	R	4.98	13.99	39.99	-	-	-
+40	Body Double	U	1.25	14.98	-	-	-	-
+319	Boros Garrison	U	0.25	0.99	-	7.17	13.98	-
+187	Bounty of the Luxa	U	0.19	0.99	-	-	-	-
+41	Breakthrough	U	0.14	4.48	-	-	-	-
+139	Brindle Shoat	C	0.2	4.99	-	-	-	-
+188	Bring to Light	R	0.99	9.99	9.99	-	-	-
+189	Burning-Tree Emissary	C	0.28	0.54	-	3.96	15.97	-
+190	Call to the Feast	C	0.14	0.84	-	-	-	-
+42	Capture Sphere	C	0.09	0.24	-	-	-	-
+72	Carrier Thrall	C	0.09	0.44	-	-	-	-
+191	Cartel Aristocrat	C	0.23	1.24	-	-	-	-
+320	Cavern of Souls	M	64.14	146.99	144.99	94.98	194.99	-
+140	Centaur Battlemaster	U	0.14	0.24	-	-	-	-
+105	Chaos Warp	R	1.21	8.99	69.99	19.04	69.99	-
+192	Child of Alara	R	9.93	39.99	39.99	-	-	-
+193	Chronicler of Heroes	C	0.09	0.19	-	-	-	-
+321	City of Brass	R	12.91	169.99	244.99	24.99	244.99	-
+300	Civic Saber	U	0.07	0.24	-	-	-	-
+194	Coiling Oracle	C	0.1	0.29	-	3.96	8.99	-
+301	Coldsteel Heart	U	2.47	29.99	-	-	-	-
+195	Conclave Mentor	U	0.98	1.99	-	-	-	-
+141	Concordant Crossroads	M	30.19	79.99	149.99	44.99	149.99	-
+302	Conqueror's Flail	R	10.93	30.0	24.99	-	-	-
+43	Consecrated Sphinx	M	34.16	79.99	149.99	46.66	149.99	-
+196	Crackling Doom	U	0.24	2.98	-	-	-	-
+197	Creakwood Liege	R	4.98	13.99	14.99	-	-	-
+303	Crucible of Worlds	M	23.99	41.99	179.99	67.65	179.99	-
+332	Cryptic Spires	L	3.41	0.0	-	-	-	-
+198	Dack's Duplicate	R	2.89	11.99	10.0	-	-	-
+73	Damnation	R	18.62	33.99	179.99	44.23	119.99	-
+106	Dark-Dweller Oracle	C	0.19	1.99	-	-	-	-
+304	Darksteel Plate	R	9.78	37.99	49.99	-	-	-
+199	Dauntless Escort	R	1.38	2.47	24.99	-	-	-
+142	Deadly Recluse	C	0.14	1.99	-	-	-	-
+200	Deathbringer Liege	R	1.97	19.99	19.99	-	-	-
+44	Deep Analysis	C	0.2	0.49	-	-	-	-
+45	Deranged Assistant	C	0.04	0.14	-	-	-	-
+143	Devoted Druid	U	1.98	9.49	-	-	-	-
+322	Dimir Aqueduct	U	0.25	1.99	-	4.99	14.98	-
+46	Disciple of the Ring	M	0.45	2.97	19.99	-	-	-
+74	Disfigure	C	0.09	0.24	-	-	-	-
+8	Divine Visitation	M	9.97	15.98	39.99	-	-	-
+107	Dockside Extortionist	M	48.31	195.0	168.0	91.99	173.0	-
+47	Domestication	U	0.13	0.24	-	-	-	-
+9	Doomed Traveler	C	0.1	0.29	-	-	-	-
+201	Doran, the Siege Tower	R	2.69	9.99	79.99	-	-	-
+305	Dragon Arch	U	1.98	4.99	-	-	-	-
+202	Dragonlord Dromoka	M	17.19	59.99	59.99	0.0	199.99	-
+203	Dragonlord Silumgar	M	5.92	34.99	34.99	-	-	-
+108	Dreamshaper Shaman	U	0.13	0.24	-	-	-	-
+204	Dreg Mangler	C	0.19	0.24	-	-	-	-
+205	Drogskol Reaver	R	7.92	39.99	79.99	-	-	-
+206	Dromoka's Command	R	0.95	2.97	14.99	-	-	-
+48	Eel Umbra	C	0.15	0.49	-	-	-	-
+207	Elenda, the Dusk Rose	M	13.79	37.99	49.98	29.12	54.99	-
+208	Elsha of the Infinite	R	2.25	2.97	29.99	-	-	-
+144	Elvish Rejuvenator	C	0.35	0.34	-	-	-	-
+10	Emiel the Blessed	M	7.97	99.99	119.99	39.99	119.99	-
+209	Empyrial Archangel	R	1.75	19.99	79.99	-	-	-
+1	Emrakul, the Aeons Torn	M	28.28	49.99	219.99	65.66	199.99	594.99
+145	Eternal Witness	U	2.73	7.99	-	14.32	21.95	-
+146	Experiment One	C	0.4	1.49	-	-	-	-
+210	Extract from Darkness	U	0.15	0.49	-	-	-	-
+75	Eyeblight's Ending	C	0.19	0.24	-	-	-	-
+211	Ezuri, Claw of Progress	M	5.48	39.99	15.0	-	-	-
+109	Fiery Fall	C	0.09	0.24	-	-	-	-
+212	Fiery Justice	R	0.89	7.99	9.99	-	-	-
+213	Figure of Destiny	R	0.89	1.74	14.99	-	-	-
+214	Fireblade Artist	C	0.19	0.29	-	-	-	-
+306	Firemind Vessel	U	0.28	1.49	-	-	-	-
+215	Firesong and Sunspeaker	R	0.0	0.0	0.0	-	-	-
+11	Flickerwisp	U	0.09	0.74	-	4.95	48.98	-
+147	Food Chain	M	37.1	114.99	114.99	-	-	-
+49	Forbidden Alchemy	C	0.09	0.24	-	-	-	-
+323	Forbidden Orchard	R	11.96	29.99	199.99	29.99	199.99	-
+50	Force of Negation	R	42.66	87.99	174.99	117.84	174.99	-
+216	Ghave, Guru of Spores	M	2.69	79.99	0.0	-	-	-
+51	Gifts Ungiven	R	2.09	9.99	19.99	9.99	149.99	-
+217	Glen Elendra Liege	R	2.23	23.99	29.99	-	-	-
+218	Glimpse the Unthinkable	R	5.24	9.99	40.0	12.97	79.99	-
+219	Gloryscale Viashino	U	0.1	0.34	-	-	-	-
+220	Glowspore Shaman	C	0.1	0.44	-	-	-	-
+148	Gnarlback Rhino	C	0.4	4.99	-	-	-	-
+76	Go for the Throat	U	0.74	9.98	-	-	-	-
+110	Goblin Banneret	U	0.09	0.24	-	-	-	-
+12	Gods Willing	C	0.2	0.19	-	-	-	-
+324	Golgari Rot Farm	U	0.2	1.49	-	8.99	10.95	-
+221	Grand Arbiter Augustin IV	R	9.7	59.99	49.99	0.0	119.99	-
+149	Grapple with the Past	C	0.21	2.48	-	-	-	-
+77	Graveblade Marauder	U	0.19	0.39	-	-	-	-
+78	Gravecrawler	R	7.11	19.99	49.99	-	-	-
+111	Greater Gargadon	R	0.89	2.47	14.99	-	-	-
+150	Green Sun's Zenith	R	17.25	39.99	44.99	-	-	-
+222	Grim Flayer	R	2.98	8.49	79.99	25.39	79.99	-
+223	Ground Assault	C	0.09	0.14	-	-	-	-
+325	Gruul Turf	U	0.25	3.98	-	11.74	16.98	-
+224	Guided Passage	R	0.94	29.99	-	-	-	-
+151	Hardened Scales	R	6.05	12.94	33.99	60.0	58.99	-
+225	Hellkite Overlord	M	2.49	13.99	48.99	-	-	-
+112	Hero of the Games	C	0.19	0.19	-	-	-	-
+226	Heroic Reinforcements	U	0.09	0.49	-	-	-	-
+113	Hissing Iguanar	C	0.1	0.24	-	-	-	-
+227	Hostage Taker	R	0.44	3.94	47.99	-	-	-
+228	Hydroid Krasis	R	5.86	16.99	57.99	-	-	-
+13	Hyena Umbra	C	0.33	0.98	-	-	-	-
+79	Imperial Seal	M	344.43	799.9	1899.9	549.6	1899.9	-
+152	Impervious Greatwurm	R	2.89	8.99	38.99	-	-	-
+52	Ingenious Skaab	C	0.19	0.19	-	-	-	-
+80	Inquisition of Kozilek	U	1.98	12.49	-	9.73	18.99	-
+229	Intet, the Dreamer	R	1.29	33.99	57.99	-	-	-
+326	Izzet Boilerworks	U	0.24	1.14	-	8.81	13.99	-
+230	Izzet Charm	C	0.28	0.44	-	-	-	-
+231	Jeskai Ascendancy	R	0.54	2.44	13.99	-	-	-
+232	Jeskai Charm	U	0.09	0.34	-	-	-	-
+53	Jeskai Elder	C	0.04	0.24	-	-	-	-
+233	Jodah, Archmage Eternal	R	0.74	9.99	38.99	-	-	-
+234	Judith, the Scourge Diva	R	0.44	2.44	13.99	-	-	-
+235	Kaalia of the Vast	M	16.98	32.99	49.0	-	-	-
+236	Kaervek the Merciless	R	0.93	8.99	13.99	-	-	-
+237	Kambal, Consul of Allocation	R	1.66	5.89	28.99	-	-	-
+238	Karador, Ghost Chieftain	M	2.49	14.99	33.99	-	-	-
+54	Kasmina's Transmutation	C	0.1	0.59	-	-	-	-
+55	Kederekt Leviathan	R	2.93	10.99	13.99	-	-	-
+14	Knightly Valor	C	0.19	0.39	-	-	-	-
+239	Kolaghan's Command	R	5.45	28.99	199.99	39.98	199.99	-
+2	Kozilek, Butcher of Truth	M	48.24	194.99	144.99	164.99	289.99	949.99
+114	Kruin Striker	C	0.09	0.24	-	-	-	-
+115	Labyrinth Champion	U	0.47	2.98	-	-	-	-
+15	Last Breath	C	0.09	0.09	-	-	-	-
+116	Lava Coil	C	0.24	1.39	-	-	-	-
+240	Lavalanche	R	0.69	0.98	8.99	-	-	-
+241	League Guildmage	U	0.09	0.39	-	-	-	-
+242	Legion's Initiative	R	1.93	9.99	38.99	-	-	-
+16	Leonin Arbiter	R	1.49	18.99	49.99	-	-	-
+117	Lightning Bolt	U	0.75	1.99	-	9.49	23.99	-
+243	Lightning Helix	U	0.73	1.84	-	-	-	-
+81	Liliana, the Last Hope	M	18.47	37.99	94.99	47.37	144.99	1400.0
+82	Liliana's Elite	C	0.09	0.39	-	-	-	-
+307	Livewire Lash	U	0.25	1.24	-	-	-	-
+118	Living Lightning	C	0.09	1.99	-	-	-	-
+244	Lord of Extinction	M	6.7	23.99	37.99	-	-	-
+245	Lotleth Troll	U	2.5	2.48	-	-	-	-
+246	Lyev Skyknight	C	0.19	0.19	-	-	-	-
+247	Magister Sphinx	R	1.63	4.94	13.99	-	-	-
+56	Makeshift Mauler	C	0.1	0.24	-	-	-	-
+57	Mana Drain	M	35.05	0.0	198.98	83.41	390.0	-
+58	Mana Leak	C	0.2	0.49	-	-	-	-
+308	Mana Vault	M	54.4	144.99	390.0	123.98	389.99	-
+248	Marchesa, the Black Rose	R	4.96	74.99	144.99	39.99	144.99	-
+249	Martial Glory	C	0.09	0.24	-	-	-	-
+250	Master Biomancer	R	0.93	8.99	39.99	-	-	-
+251	Master of Cruelties	M	7.87	37.99	60.0	-	-	-
+252	Mathas, Fiend Seeker	R	1.49	2.44	37.99	-	-	-
+253	Mayael's Aria	R	6.5	19.99	74.99	-	-	-
+17	Mentor of the Meek	U	0.48	4.98	-	-	-	-
+153	Might of Old Krosa	C	0.38	0.99	-	-	-	-
+18	Mikaeus, the Lunarch	M	1.9	9.99	34.99	-	-	-
+19	Militia Bugler	U	0.09	0.19	-	-	-	-
+255	Mindwrack Liege	R	1.91	9.99	23.99	-	-	-
+59	Mistfire Adept	U	0.08	0.24	-	-	-	-
+256	Mistmeadow Witch	U	0.09	0.34	-	-	-	-
+257	Mizzix of the Izmagnus	M	2.89	33.99	54.99	-	-	-
+20	Momentary Blink	C	0.0	0.39	-	-	-	-
+21	Monastery Mentor	M	12.96	27.98	37.99	-	-	-
+119	Monastery Swiftspear	C	0.86	3.73	-	5.46	22.99	-
+258	Muldrotha, the Gravetide	M	4.62	13.99	27.99	21.77	94.99	-
+60	Mulldrifter	U	0.47	1.99	-	5.25	10.98	-
+259	Murkfiend Liege	R	0.93	89.99	27.99	-	-	-
+22	Myth Realized	U	0.19	0.99	-	-	-	-
+83	Necrotic Ooze	R	3.85	11.99	27.99	-	-	-
+61	Nephalia Smuggler	U	0.09	0.69	-	-	-	-
+260	Nicol Bolas, God-Pharaoh	M	4.48	29.98	44.99	-	-	-
+309	Nim Deathmantle	R	5.0	36.99	49.99	-	-	-
+84	Ob Nixilis, Unshackled	R	2.91	13.99	23.99	-	-	-
+85	Oona's Prowler	R	2.0	8.99	13.99	-	-	-
+154	Oracle of Mul Daya	R	9.84	89.99	94.99	27.98	194.99	-
+327	Orzhov Basilica	U	0.2	1.89	-	6.36	13.99	-
+261	Orzhov Pontiff	U	0.0	4.99	-	-	-	-
+310	Panharmonicon	R	6.74	9.0	84.99	37.99	79.99	-
+23	Path to Exile	U	2.99	4.99	-	-	-	-
+311	Phyrexian Altar	R	46.71	119.99	174.99	93.82	194.99	-
+262	Phyrexian Tyranny	R	0.93	18.99	13.99	-	-	-
+328	Pillar of the Paruns	R	3.98	39.99	59.99	-	-	-
+120	Pirate's Pillage	C	1.0	7.99	-	-	-	-
+312	Pithing Needle	R	1.41	4.89	44.99	17.96	44.99	-
+313	Planar Bridge	R	2.98	8.99	37.99	-	-	-
+263	Privileged Position	R	13.18	54.99	94.99	24.96	94.99	-
+264	Prized Amalgam	R	0.84	2.94	13.99	-	-	-
+265	Prophetic Bolt	U	0.23	14.99	-	-	-	-
+266	Psychic Symbiont	U	0.09	0.24	-	-	-	-
+62	Pull from Tomorrow	R	0.48	3.44	18.99	-	-	-
+121	Purphoros's Emissary	C	0.09	0.24	-	-	-	-
+267	Qasali Pridemage	C	0.44	3.98	-	6.96	13.98	-
+268	Rafiq of the Many	R	3.75	44.99	44.99	-	-	-
+329	Rakdos Carnarium	U	0.25	1.24	-	7.22	13.99	-
+155	Rampant Growth	C	0.22	2.98	-	3.98	6.99	-
+156	Rancor	U	1.0	2.48	-	-	-	-
+24	Relief Captain	C	0.09	0.23	-	-	-	-
+25	Restoration Angel	R	0.47	3.94	37.99	-	-	-
+26	Reveillark	R	0.65	5.99	27.99	-	-	-
+122	Rift Bolt	C	0.98	1.99	-	-	-	-
+157	Rishkar, Peema Renegade	R	1.0	2.84	37.99	-	-	-
+269	River Hoopoe	U	0.1	0.49	-	-	-	-
+270	Roon of the Hidden Realm	R	0.84	27.99	38.0	-	-	-
+271	Ruric Thar, the Unbowed	R	0.84	2.94	13.99	-	-	-
+272	Scab-Clan Giant	U	0.08	0.29	-	-	-	-
+27	Scale Blessing	U	0.09	0.19	-	-	-	-
+86	Scion of Darkness	U	2.98	14.99	-	-	-	-
+123	Seasoned Pyromancer	M	23.32	89.99	57.99	58.98	144.99	-
+273	Sedraxis Specter	U	0.09	0.29	-	-	-	-
+274	Sedris, the Traitor King	M	5.0	49.99	39.99	14.84	94.99	-
+28	Seeker of the Way	C	0.0	0.24	-	4.68	6.99	-
+87	Seekers' Squire	C	0.19	0.19	-	-	-	-
+330	Selesnya Sanctuary	U	0.25	3.98	-	8.77	16.99	-
+314	Sensei's Divining Top	R	28.37	99.99	144.99	62.16	374.99	-
+29	Sensor Splicer	C	0.1	0.14	-	-	-	-
+30	Settle Beyond Reality	C	0.2	0.19	-	-	-	-
+88	Severed Strands	C	0.1	0.24	-	-	-	-
+89	Shadowborn Apostle	C	3.46	11.99	-	-	-	-
+275	Shattergang Brothers	R	0.49	74.99	13.99	-	-	-
+276	Sidisi, Brood Tyrant	R	0.75	7.99	27.99	-	-	-
+331	Simic Growth Chamber	U	0.23	9.99	-	13.82	25.0	-
+90	Skeleton Archer	C	0.09	0.24	-	-	-	-
+91	Skinrender	U	0.14	0.99	-	-	-	-
+277	Skullbriar, the Walking Grave	R	2.86	27.99	87.99	-	-	-
+31	Smothering Tithe	R	24.79	44.99	114.99	44.13	114.99	-
+124	Sparkmage's Gambit	C	0.1	0.24	-	-	-	-
+63	Spell Pierce	C	0.19	2.98	-	9.97	83.99	-
+158	Spider Spawning	U	0.18	0.39	-	-	-	-
+159	Splinterfright	R	0.97	0.99	13.99	-	-	-
+278	Sprouting Thrinax	U	0.13	0.24	-	-	-	-
+125	Staggershock	U	0.14	0.49	-	-	-	-
+126	Storm Fleet Pyromancer	C	0.09	0.14	-	-	-	-
+92	Strands of Undeath	C	0.14	0.24	-	-	-	-
+279	Sultai Soothsayer	U	0.09	0.24	-	-	-	-
+160	Summer Bloom	U	2.0	19.99	-	-	-	-
+93	Supernatural Stamina	C	0.09	0.24	-	-	-	-
+280	Supreme Verdict	R	7.46	13.99	37.99	34.99	74.99	-
+94	Surgical Extraction	R	11.99	18.99	-	28.32	44.99	-
+127	Surreal Memoir	U	0.08	0.24	-	-	-	-
+64	Talrand, Sky Summoner	R	0.14	0.69	13.99	-	-	-
+281	Tariel, Reckoner of Souls	R	2.6	27.99	37.99	-	-	-
+32	Teferi's Protection	R	26.86	57.99	94.99	37.99	139.99	-
+282	Teneb, the Harvester	R	0.94	74.99	94.99	-	-	-
+283	Tenth District Legionnaire	C	0.2	0.99	-	-	-	-
+284	Terminate	U	0.68	2.98	-	5.56	13.99	-
+254	The Mimeoplasm	R	2.79	9.94	34.99	6.96	74.99	-
+285	Thistledown Liege	R	0.93	6.74	13.99	-	-	-
+65	Thought Scour	C	0.28	1.74	-	2.95	8.99	-
+286	Thousand-Year Storm	R	4.97	12.99	68.99	18.39	69.99	-
+287	Thraximundar	R	0.99	18.99	33.99	-	-	-
+161	Thrive	C	0.2	0.19	-	-	-	-
+315	Thrumming Stone	R	27.99	194.99	194.99	-	-	-
+128	Titan's Strength	C	0.15	0.99	-	-	-	-
+288	Tower Gargoyle	U	0.08	0.24	-	-	-	-
+162	Travel Preparations	U	0.09	0.24	-	-	-	-
+316	Traveler's Amulet	C	0.09	0.24	-	-	-	-
+163	Tuskguard Captain	C	0.2	1.49	-	-	-	-
+129	Twinflame	R	2.95	16.99	27.99	-	-	-
+3	Ulamog, the Infinite Gyre	M	46.49	174.99	124.99	95.33	294.99	650.0
+289	Ulasht, the Hate Seed	R	0.89	12.99	28.0	-	-	-
+95	Unburial Rites	U	0.19	3.48	-	-	-	-
+96	Unearth	C	0.2	3.48	-	4.94	13.99	-
+290	Uril, the Miststalker	M	10.47	194.99	244.99	-	-	-
+97	Vampire Sovereign	U	0.2	0.39	-	-	-	-
+98	Vampiric Rites	U	0.19	4.48	-	-	-	-
+291	Varina, Lich Queen	R	2.5	44.99	28.0	-	-	-
+317	Vedalken Orrery	R	13.06	54.99	55.0	37.88	150.0	-
+66	Venser, Shaper Savant	R	1.8	4.99	35.0	-	-	-
+292	Villainous Wealth	R	0.34	2.99	14.0	-	-	-
+33	Wall of Omens	U	0.37	8.99	-	4.32	8.99	-
+130	Warrior's Oath	M	64.98	399.99	698.98	-	-	-
+67	Wash Out	U	0.99	19.99	-	-	-	-
+293	Wasitora, Nekoru Queen	R	2.43	54.99	74.99	-	-	-
+34	Weathered Wayfarer	R	7.11	80.0	34.99	-	-	-
+164	Webweaver Changeling	C	0.29	0.29	-	-	-	-
+294	Wilt-Leaf Liege	R	1.14	2.5	24.99	-	-	-
+295	Winged Coatl	C	0.14	1.24	-	-	-	-
+35	Wingsteed Rider	C	0.19	0.19	-	-	-	-
+296	Wrenn and Six	M	58.89	299.99	245.0	106.24	449.99	1400.0
+99	Yahenni, Undying Partisan	R	2.98	7.99	27.99	-	-	-
+131	Young Pyromancer	U	0.38	0.99	-	4.95	23.99	-
+297	Zur the Enchanter	R	2.99	6.0	27.99	-	-	-
