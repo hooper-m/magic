@@ -1,6 +1,8 @@
 import json
-from datetime import date
-from scraper import scrape_tcgplayer_2x2 as scrape
+import requests
+import pandas as pd
+import datetime as dt
+from os.path import exists
 
 cs = 91
 us = 80
@@ -15,6 +17,150 @@ t_ms = 5
 styles = ['Normal', 'Foil', 'Etched Foil', 'Borderless', 'Borderless Foil', 'Textured Foil']
 price_cutoff = 1.99
 
+today = dt.date.today()
+
+
+def scrape_tcgplayer_2x2():
+    url = "https://mpapi.tcgplayer.com/v2/search/request"
+
+    querystring = {"q":"","isList":"true"}
+
+    payload = {
+        "algorithm": "",
+        "from": 0,
+        "size": 610,
+        "filters": {
+            "term": {
+                "productLineName": ["magic"],
+                "setName": ["double-masters-2022"],
+                "productTypeName": ["Cards"]
+            },
+            "range": {},
+            "match": {}
+        },
+        "listingSearch": {
+            "filters": {
+                "term": {
+                    "sellerStatus": "Live",
+                    "channelId": 0
+                },
+                "range": {"quantity": {"gte": 1}},
+                "exclude": {"channelExclusion": 0}
+            },
+            "context": {"cart": {}}
+        },
+        "context": {
+            "cart": {},
+            "shippingCountry": "US"
+        },
+        "sort": {
+            "field": "product-name",
+            "order": "asc"
+        }
+    }
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Content-Type": "application/json",
+        "Origin": "https://www.tcgplayer.com",
+        "Connection": "keep-alive",
+        "Referer": "https://www.tcgplayer.com/",
+        # "Cookie": "tcg-uuid=caac5ba4-0c99-467e-9cfd-4891889d8b50; valid=set=true; amp_b98ea9_tcgplayer.com=xy59Qpko-d808N504cYtMr.MDE0ZDBmY2EtMjI0MC00YzBjLTlmMGItNmEzZTJiYjc1MmE0..1fvkfdu72.1fvkfdu74.37p.2q.3aj; product-display-settings=sort=price+shipping&size=10; setting=CD=US&M=1; AWSALB=39r2IHWxW66VFaSRvANJT65D9eHuNxrYOHEjPcL4uSl7bkACNsz0TpXCA/Xh5HT7dKQMBXhPj3OZoFVHGpe1YLNqKGt31KtDpUUsVffydRj+MrX8eRy1IpKVfZMw; AWSALBCORS=39r2IHWxW66VFaSRvANJT65D9eHuNxrYOHEjPcL4uSl7bkACNsz0TpXCA/Xh5HT7dKQMBXhPj3OZoFVHGpe1YLNqKGt31KtDpUUsVffydRj+MrX8eRy1IpKVfZMw; TCG_Data=M=1&SearchGameNameID=magic; TCG_VisitorKey=9eceb1ec-6ed4-4cdf-8838-edf8c28b2178; TCG_VisitorKey=6c70e8c8-0c36-416f-89e9-4ab23a688d25; SearchSortSettings=M=1&ProductSortOption=ProductName&ProductSortDesc=False&PriceSortOption=Shipping&ProductResultDisplay=list",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "DNT": "1",
+        "Sec-GPC": "1",
+        "TE": "trailers"
+    }
+
+    print('requesting nonfoils..')
+    response = requests.request("POST", url, json=payload, headers=headers, params=querystring)
+    data = response.json()
+    cards = data['results'][0]['results']
+
+    with open(f'data/{today}/2x2-nonfoils-{today}.json', 'w', encoding='utf8') as json_out:
+        json.dump(cards, json_out)
+
+    payload['filters']['term']['printing'] = ["Foil"]
+
+    print('requesting foils..')
+    response = requests.request("POST", url, json=payload, headers=headers, params=querystring)
+    data = response.json()
+    cards = data['results'][0]['results']
+    with open(f'/data/{today}/2x2-foils-{today}.json', 'w', encoding='utf8') as json_out:
+        json.dump(cards, json_out)
+
+
+def scrape_price_history(product_id, foil=''):
+    url = f"https://mpapi.tcgplayer.com/v2/product/{product_id}/latestsales"
+
+    variants = []
+    if foil == 'nonfoil':
+        variants.append(1)
+    elif foil == 'foil':
+        variants.append(2)
+
+    payload = {
+        "variants": variants,
+        "conditions": [1],
+        "languages": [1],
+        "listingType": "All",
+        "limit": 25
+    }
+    headers = {
+        "cookie": "TCG_VisitorKey=481d2120-2399-4d51-a302-0bb4b58e955a",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Content-Type": "application/json",
+        "Origin": "https://www.tcgplayer.com",
+        "Connection": "keep-alive",
+        "Referer": "https://www.tcgplayer.com/",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "DNT": "1",
+        "Sec-GPC": "1",
+        "TE": "trailers"
+    }
+
+    response = requests.request("POST", url, json=payload, headers=headers)
+    data = response.json()['data']
+
+    data.sort(key=lambda datum: dt.datetime.strptime(
+                datum['orderDate'][:len('2022-07-03T01:06:15')], '%Y-%m-%dT%H:%M:%S')
+              , reverse=True)
+
+    # for datum in data:
+        # datestring = datum['orderDate']
+        # datestring = datestring[:len('2022-07-03T01:06:15')]
+        # date = dt.datetime.strptime(datestring, '%Y-%m-%dT%H:%M:%S')
+    if len(data) == 0:
+        return float('inf')
+    else:
+        return float(data[0]['purchasePrice'])
+
+
+def read_card_data(date):
+    print('getting card data..')
+    if exists(f'data/{date}/'):
+        print('getting cached data..')
+        return parse_prev(date)
+    elif date == dt.date.today():
+        print('scraping card data..')
+        scrape_tcgplayer_2x2()
+        print('parsing response json..')
+        nonfoils = tcgplayer_json()
+        foils = tcgplayer_json(foils=True)
+        print('compiling data..')
+        return parse_card_data(nonfoils, foils)
+    else:
+        print(f'no data for {date}')
+
 
 def scryfall_db():
     local_scryfall = "D:/Documents/Games/Magic/scryfall-dbs/all-cards-latest.json"
@@ -24,19 +170,13 @@ def scryfall_db():
     return double_masters
 
 
-def tcgplayer_nonfoils():
-    local_tcgplayer = 'tcgplayer_2x2_nonfoils.json'
-    with open(local_tcgplayer, 'r', encoding='utf8') as f:
+def tcgplayer_json(foils=False):
+    file_path = f'data/{today}/tcgplayer-2x2-{"non" if not foils else ""}foils-{today}.json'
+    with open(file_path, 'r', encoding='utf8') as f:
         return json.load(f)
 
 
-def tcgplayer_foils():
-    local_tcgplayer = 'tcgplayer_2x2_foils.json'
-    with open(local_tcgplayer, 'r', encoding='utf8') as f:
-        return json.load(f)
-
-
-def parce_price(card, style):
+def parse_price(card, style):
     if 'marketPrice' in card:
         foil = 'Foil' in style
         foil_only = card['foilOnly'] == 'true'
@@ -87,7 +227,7 @@ def parse_card_data(nonfoils, foils):
             print(f'duplicate style {style} for {name}')
             continue
 
-        cards[name][style] = parce_price(card, style)
+        cards[name][style] = parse_price(card, style)
         cn = int(card['customAttributes']['number'])
         if cn < 333:
             cards[name]['CN'] = cn
@@ -115,7 +255,7 @@ def parse_card_data(nonfoils, foils):
             print(f'duplicate style {style} for {name}')
             continue
 
-        cards[name][style] = parce_price(card, style)
+        cards[name][style] = parse_price(card, style)
 
     return cards
 
@@ -128,8 +268,12 @@ def log(cards):
         print()
 
 
-def write_card_prices(cards, today=True):
-    with open(f"prices-{date.today() if today else 'previous'}.txt", 'w', encoding='utf8') as out:
+def write_card_prices(cards):
+    if exists(f'data/{today}/'):
+        return
+
+    print('writing to file..')
+    with open(f"data/{today}/prices-{today}.txt", 'w', encoding='utf8') as out:
         out.write('CN')
         out.write('\tName')
         out.write('\tRarity')
@@ -144,6 +288,7 @@ def write_card_prices(cards, today=True):
             for style in styles:
                 out.write(f'\t{"-" if style not in prices else prices[style]}')
             out.write('\n')
+    print('done writing to file')
 
 
 def rarity_ev(cards, rarity, style):
@@ -234,11 +379,15 @@ def calc_evs(cards):
     return draft_booster, collector_booster
 
 
-def parse_prev():
+def parse_prev(date):
+    file_path = f'data/{date}/prices-{date}.txt'
     cards = {}
-    with open('prices-previous.txt', 'r', encoding='utf-8') as f:
-        # for line in map(str.split, f.readlines()):
-        for line in map(lambda s: s.strip().split('\t'), f.readlines()[1:]):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        all_lines = f.readlines()
+        for line in all_lines[1:]:
+            line = line.strip()
+            line = line.split('\t')
+
             name = line[1]
             cards[name] = {}
             cards[name]['Rarity'] = line[2]
@@ -250,10 +399,12 @@ def parse_prev():
     return cards
 
 
-def print_evs(evs):
-    print('\t\t\tbooster\tbox')
+def print_evs(evs, date=today):
+    print()
+    print(f'{date}\tbooster\tbox')
     print(f'draft:\t\t{evs[0]:.2f}\t{evs[0]*24:.2f}')
     print(f'collector:\t{evs[1]:.2f}\t{evs[1]*4:.2f}')
+    print()
 
 
 def calc_Δs(cards, prev_cards):
@@ -267,13 +418,6 @@ def calc_Δs(cards, prev_cards):
     max_Δs = [(card, max(map(abs, prices.values()))) for card, prices in Δs.items()]
     max_Δs.sort(key=lambda cΔ: -cΔ[1])
 
-    # for i in range(10):
-    #     card_name, Δ = max_Δs[i]
-    #     print(card_name)
-    #     for style, price in Δs[card_name].items():
-    #         print(f'{style}: {price:.2f}')
-    #     print()
-
     for card_name, Δ in max_Δs[:10]:
         print(card_name)
         for style, price in Δs[card_name].items():
@@ -281,30 +425,22 @@ def calc_Δs(cards, prev_cards):
         print()
 
 
-def main():
-    # scrape()
-    print('reading card data...')
-    nonfoils = tcgplayer_nonfoils()
-    foils = tcgplayer_foils()
-    cards = parse_card_data(nonfoils, foils)
+def daily_update():
+    cards = read_card_data(today)
+    if cards is None:
+        return
+
     print('done reading card data.')
-    print('writing to file...')
     write_card_prices(cards)
-    print('done writing to file')
-    #log(cards)
-    print()
-    print(f'Prices for {date.today()}:')
     evs = calc_evs(cards)
     print_evs(evs)
-    print()
-    print(f'Prices for yesterday:')
-    prev_cards = parse_prev()
+    prev_cards = parse_prev(today-dt.timedelta(days=1))
     prev_evs = calc_evs(prev_cards)
     print_evs(prev_evs)
-    print()
     calc_Δs(cards, prev_cards)
 
-    # write_card_prices(cards, today=False)
+def main():
+    scrape_price_history(277167)
 
 
 if __name__ == "__main__":
